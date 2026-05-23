@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Pinged",
+  "version": "1.0",
+  "description": "Website responsiveness analyzer",
+
+  "permissions": ["tabs", "activeTab"],
+
+  "host_permissions": ["http://localhost:5000/*"],
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
