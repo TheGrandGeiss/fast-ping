@@ -1,4 +1,4 @@
-import express from 'express';
+import express, { type Request, type Response } from 'express';
 import cors from 'cors';
 import axios from 'axios';
 
@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.post('/analyze', async (req, res) => {
+app.post('/analyze', async (req: Request, res: Response) => {
   const { url } = req.body;
 
   if (!url) {
