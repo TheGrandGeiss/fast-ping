@@ -16,6 +16,7 @@ backend/src/server.d.ts.map
 backend/src/server.d.ts
 backend/src/server.js.map
 backend/src/server.js
+backend/dist
 
 frontend/node_modules
 frontend/dist
